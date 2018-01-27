@@ -32,3 +32,33 @@ bundleで管理しているgemのコマンドスタブ作成
 ```sh
 $ bundle binstubs rake serverspec
 ```
+
+手順
+----
+
+テストスクリプトのひな形を作成する。
+
+```sh
+$ bin/serverspec-init
+```
+```
+Select OS type:
+
+  1) UN*X
+  2) Windows
+
+Select number: 1
+
+Select a backend type:
+
+  1) SSH
+  2) Exec (local)
+
+Select number: 2
+```
+
+テストを実行する。
+
+```sh
+$ bin/rake
+```
