@@ -1,7 +1,6 @@
 study-serverspec
 ================
 
-
 準備
 ----
 
@@ -10,6 +9,7 @@ study-serverspec
 ```sh
 $ bundle init
 $ cat <<'EOS' >> Gemfile
+gem 'rake'
 gem 'serverspec'
 EOS
 $ bundle install --path=vendor/bundle
@@ -25,4 +25,10 @@ cacheに保存されたgemからgemをインストールする。
 
 ```sh
 $ bundle install --path=vendor/bundle --local
+```
+
+bundleで管理しているgemのコマンドスタブ作成
+
+```sh
+$ bundle binstubs rake serverspec
 ```
