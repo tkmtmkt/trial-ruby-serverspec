@@ -1,5 +1,5 @@
-study-serverspec
-================
+study-ruby-serverspec
+=====================
 
 準備
 ----
