@@ -10,6 +10,7 @@ study-ruby-serverspec
 $ bundle init
 $ cat <<'EOS' >> Gemfile
 gem 'rake'
+gem 'pry'
 gem 'serverspec'
 EOS
 $ bundle install --path=vendor/bundle
@@ -30,7 +31,7 @@ $ bundle install --path=vendor/bundle --local
 bundleで管理しているgemのコマンドスタブ作成
 
 ```sh
-$ bundle binstubs rake serverspec
+$ bundle binstubs rake pry serverspec
 ```
 
 手順
