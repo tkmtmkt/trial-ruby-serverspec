@@ -1,4 +1,4 @@
-study-ruby-serverspec
+trial-ruby-serverspec
 =====================
 
 準備
